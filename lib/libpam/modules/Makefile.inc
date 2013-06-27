@@ -1,4 +1,5 @@
 # Include Makefiles from $SRCDIR
 
-.include </usr/src/lib/libpam/modules/Makefile.inc>
+LIBDIR=${PREFIX}/lib
 
+.include <${SYSDIR}/../lib/libpam/modules/Makefile.inc>
